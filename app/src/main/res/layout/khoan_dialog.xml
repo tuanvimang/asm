@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFC107"
+        android:gravity="center"
+        android:backgroundTint="#2E6CC6">
+
+        <TextView
+            android:id="@+id/txtTieuDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THÊM KHOẢN/ CHỈNH SỬA"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edtKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên khoản"/>
+
+    <EditText
+        android:id="@+id/edtTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tiền"/>
+
+    <EditText
+        android:id="@+id/edtNgay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập ngày"/>
+
+    <Spinner
+        android:id="@+id/spnLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginEnd="10dp"
+            android:id="@+id/btnThemSua"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Thêm/Sửa"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnHuy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
